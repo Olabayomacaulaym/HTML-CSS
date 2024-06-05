@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseu do elemento</title>
+</head>
+
+    <style>
+        a {
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.2em;
+            color: steelblue;
+           
+        }
+
+
+       a::after{
+        content: " [LINK]";
+        
+       }
+       a::before {
+        content: "$";
+       }
+     
+
+       a:hover {
+            color: darkorange;
+            text-decoration: 2px underline  darkolivegreen;
+        }
+        a:active {
+            color: blue ;
+
+        }
+        
+           </style>
+
+<body>
+    <h1> Aqui estão alguns links importântes</h1>
+    <ol>
+        <li><a href="#" >As atividades na Granja de Pessobé</a></li>
+        <li><a href="#" >Chapa de Bissau</a></li>
+        <li><a href="#" >Brene na região de Biombo</a></li>
+        <li><a href="#"  >Mais projetos do seu intersse</a></li>
+    </ol>
+</body>
+</html>

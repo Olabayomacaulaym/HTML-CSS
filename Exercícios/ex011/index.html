@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As imagens que se adaptam sozinhas</title>
+</head>
+<body>
+    <h1>
+        Imagens Dinâmicas 
+    </h1>
+    <p>
+        Tente abrir esse site em despositivos diferentes ou simplesmente aumentar e demínuir o tamanho do seu navegador .
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto_P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/foto_M.png" type="image/png">
+        <img src="Imagens/foto_G.png" alt="imagen flexivel">
+    </picture>
+    <h1>
+        Inserindo Audio no site 
+    </h1>
+    <audio src="Medias/20  Oghenedo -Frank Edward.mp3" autoplay controls ></audio>
+    <h1>
+        Inserindo Audio com as alternativas dos formatos
+    </h1>
+    <audio preload="metadata
+    "  loop controls  >
+        <source src="Medias/adeboye.mp3" type="audio/mpeg">
+        <source src="Medias/20  Oghenedo -Frank Edward.ogg" type="audio/ogg">
+        <source src="Medias/adeboye.wav" type="audio/wav">
+        <p>
+            Peço sinsserar desculpas perém o seu navegador não consegue reproduzir audios.Contúdo pode baixar o arquivo pelo link abaixo .
+        </p>
+        <a href="Medias/20  Oghenedo -Frank Edward.mp3" download="20  Oghenedo -Frank Edward.mp3" type="application/mpeg"></a>
+    </audio>
+</body>
+</html>

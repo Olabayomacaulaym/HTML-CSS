@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda parte da Pseudo-classes</title>
+    <style>
+       div#es > p  {
+            display: none;
+        }
+
+        div#es:hover> p {
+            display: block;
+            background-color: brown;
+            color: white;
+            border-radius: 5px;
+            border: 3px solid blue ;
+            padding: 6px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Escondendo algo com o Pseudo-classes
+    </h1>
+
+    <h2>
+         Passe o mause em cima do parágrafo abaixo!
+    </h2>
+    <div id="es">
+        passe o mause em cima
+        <p> Aqui está um texto econdido
+        </p>
+    </div>
+</body>
+</html>

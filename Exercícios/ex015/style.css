@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(239, 242, 205);
+}
+h2{
+    color: dodgerblue;
+    text-align: center;
+}
+h1{
+    color: rgb(4, 10, 10);
+    text-align: right;
+    background-color: rgb(73, 75, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding-right: 14px;
+    border-radius: 3px;
+}
+p{
+    line-height:1.8em;
+    text-indent: 4em;
+    text-align: justify;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de boxs</title>
+</head>
+<style>
+
+    body {
+        margin: 0px;
+    }
+    header > nav > a {
+        text-align: right;
+        text-decoration: none;
+        font:normal lighter 1.1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(30, 31, 34);
+       
+    }
+    header > nav > a:hover {
+        text-decoration: underline;
+        background-color: rgb(96, 92, 92);
+        color:white;
+        padding:6px;
+        border-radius: 5px;
+    }
+    
+    header > h1 {
+        text-align: center;
+        padding: 3px;
+        border-left: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-image-source: url(Border.png);
+        border-image-repeat: repeat;
+        border-image-slice: 20 ;
+    }
+    header > nav {
+        text-align: right;
+        background-color: rgb(252, 246, 130);
+        padding: 13px;       
+    }
+
+    header {
+        background-color:rgb(252, 246, 130) ;
+            padding: 13px;
+    }
+
+    main {
+        max-width: 800px ;
+        min-width: auto;
+        margin: auto ; 
+        padding: 25px 20px 10px 20px ;
+        background-color: gainsboro;
+    }
+    main {
+         background-color: rgb(187, 187, 138); margin-bottom: 10px;
+         border-radius: 0px 0px 4px 4px;
+    }
+
+    main > article  {
+        background-color: rgb(252, 252, 157);
+        padding: 30px;
+        text-align: justify;
+        line-height: 1.5em;
+        box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.183);
+       
+    }
+    p {
+        text-indent:  30px;
+    }
+    main > article > h1 {
+        background-color: rgb(231, 231, 225);
+        padding: 15px ;
+       text-align: left;
+       box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.217);
+        border-radius: 2px ;
+    }
+
+    aside {
+         background-color: rgb(255, 255, 161);
+        padding: 30px;
+        margin-top: 7px;
+         box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.183);
+    }
+    
+    aside > h2 {
+        background-color:  lightgrey;
+        padding: 15px;
+         box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.206);
+        border-radius: 2px ;
+    }
+
+        footer > p {
+            margin: 0px;
+        }
+    footer {
+        text-align: center;
+        background-color: rgb(42, 40, 40);
+        color: white;
+        padding:9px ;
+        font-size: 1.1em;
+
+    }
+</style>
+<body>
+     <header>
+        <nav>
+            <a href="#">Casa</a>
+            <a href="#"> Sobre</a>
+            <a href="#">Bantaba</a>
+            <a href="#"> Perfíl</a>
+            
+        </nav>
+        <h1> Desenvolvendo site com o prof Gustavo Guanabarra</h1>
+     </header>
+
+     <main>
+        <article>
+            <h1> Este é um exemplo de site semântico</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quis, itaque accusantium quibusdam inventore consectetur harum nam reprehenderit, fugit, totam veniam officiis debitis asperiores suscipit corporis maiores? Praesentium, distinctio corrupti.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora delectus rem quod quisquam laudantium, reiciendis porro voluptate ipsam animi in aperiam optio voluptatem sequi explicabo minus culpa, iste iure blanditiis?</p>
+        </article>
+        <aside>
+            <h2> Parte Periférico do site </h2>
+            <ol>
+                <li>As  minhas redes sociais</li>
+                <li> Palestras</li>
+                <li>Os mais procurados</li>
+                <li>Os cursos que oferecemos</li>
+                <li>Assuntos que podem ser do seu interesse</li>
+            </ol>
+        </aside>
+     </main>
+     <footer>
+        <p> Site Desenvolvendo pelo Daniel Mendonça</p>
+     </footer>
+</body>
+</html>

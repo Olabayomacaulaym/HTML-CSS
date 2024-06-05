@@ -1,0 +1,238 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ :root {
+   /* Estas são as variáveis que serão utilizadas nas cores do site */
+
+    --cor1 : #b2c0cc ;
+    --cor2 : #91c7f1bb ;
+    --cor3 : #77b5d0 ; 
+    --cor4 : #418399 ; 
+    --cor5 : #2d525d ;
+    --cor6 : #123144 ; 
+
+    /* Está será as variáveis que serão utilizadas para as fontes neste site */
+
+    --font1 : android,san-serif ; 
+    --font2 : nav , san-serif ; 
+    --font3 : robo,san-serif ; 
+    --font4 : nunito, san-serif;
+ }
+
+ body {
+    background-color:var(--cor1) ;
+ }
+
+ /* estilo para a tag de agrupamento chamada nav */
+
+ nav {
+    overflow: hidden;
+    background-color: var(--cor3);
+    padding: 20px;
+ }
+
+ nav > a {
+    color: var(--cor6) ; 
+    font: normal lighter 1.3em arial,san-serif;
+    text-decoration: none;
+    float: right ;
+    margin-right: 16px;
+    font-family: var(--font4); 
+    font-weight: bolder;
+    padding: 7px ;
+ }
+  nav > a:hover {
+    background-color: #123144;
+    color:white ; 
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  }
+
+ /* estilo para header e para os elementos que nela estão */ 
+
+ header {    
+    background-image: linear-gradient(to top,var(--cor6), var(--cor4) , var(--cor3));
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.219);
+ }
+
+ header > h1  {
+    color: white;
+    text-align: center;
+    font: normal bold 2.2em var(--font1);
+    padding:  10px;
+    text-shadow: 11px 5px 20px rgba(250, 249, 249, 0.417);
+ }
+
+ header > p {
+   color: rgb(236, 234, 234) ;
+      text-align: center; 
+      padding: 40px;
+    font: normal lighter 2em  var(--font4);
+    text-shadow: 8px 2px 50px rgba(255, 255, 255, 0.54);
+    font-size: 1.5em;
+    padding-right: 10px ;
+    padding-left: 10px ;
+ }
+
+ /*para os estilos da parte principal do site específicament article */ 
+
+ main {
+    background-color: white;
+    max-width: 900px ;
+    margin-top: -48px;
+    margin: -48px auto auto auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+ }
+
+ main > article > p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7em ;
+    font-size: 1.2em;
+    font-family: var(--font4);
+ }
+
+ /* Os links que estão dentro da tag de agrupamento main */ 
+  a {
+   text-decoration:none ;
+   color: var(--cor4);
+ }
+
+
+ a:hover {
+   background-color: var(--cor6);
+   color: white;
+   padding: 2px;
+   border-radius: 4px;
+   transition: 0.1s;
+ }
+
+.fora::after{
+   content: "🔗";
+ }
+
+
+
+ /* estílos para os títulos do nível de h2 */
+
+ .para {
+    font: normal 1.9em var(--font1);
+    margin: 10px 0px 15px 0px;
+    color: var(--cor6);
+    text-shadow: 4px 4px 20px rgba(253, 251, 251, 0.938);
+    padding: 10px 0px 15px 20px ;
+    border-radius: 3px 3px 0px 0px ;
+    text-align: right ; 
+ }
+
+ .par {
+   font: normal 1.4em var(--font1);
+    margin: 10px 0px 15px 0px;
+    color: var(--cor5) ; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+    background-image: linear-gradient(to right , var(--cor3),  transparent);
+    padding: 5px 0px 5px 10px ;
+    border-radius: 2px 0px 0px 2px ;
+ }
+ /* Aqui vai todas as estilições que diz respeito as medias deste site ou seja as fotos e as imagens */
+ .ima{
+   max-width: 320px ; 
+   display: block;
+   margin: 0px auto;
+
+ }
+ img {
+    /*esta declaração permite que elemento selecionado prenche o 100% da ária desponivel do conteiner que ela fora enseido */ 
+    width: 100%;
+ }
+
+/* estilos para div que contém os videos também para  o video */ 
+
+div {
+   background-color: rgba(0, 0, 0, 0.138);
+   margin-right: -30px ;
+   margin-left: -30px ;
+   margin-bottom: 48px;
+   margin-top: 30px;
+   border-radius: 2px;
+}
+
+iframe {
+         width : 100% ; 
+}
+/*
+video {
+   width: 100%;
+}
+*/
+/*estilos para aside e footer */ 
+
+aside,footer > p {
+   font-family: var(--font4);
+}
+
+  h3 {
+   font-family: var(--font1);
+   background-color: var(--cor5);
+   color: white;
+   padding: 10px;
+   border-radius: 3px 3px 0px 0px;
+
+}
+
+aside {
+   background-color: var(--cor1);
+   padding: 10px 10px 10px 10px;
+   line-height: 2em;
+   margin-bottom: 20px;
+   border-radius: 0px 0px 3px 3px;
+   box-shadow: 9px 2px 20px 3px rgba(0, 0, 0, 0.166);
+}
+
+aside > p {
+   text-indent: 15px;
+   font-size: 1.3em;
+   margin-bottom: 15px;
+}
+
+aside > ul > li {
+      list-style-type:  "✒ \00A0";
+      list-style-position: inside;
+      padding: 0px 0px 0px 6px;
+      font-size: 1.2em ; 
+      
+}
+
+aside > ul {
+   columns: 2;
+}
+
+aside > ul > li > abbr{
+   text-decoration: none;
+}
+
+footer {
+   background-color: var(--cor6);
+   text-align: center;
+   color: white;
+   padding: 10px;
+}
+footer > p > a {
+   text-decoration: none;
+   color: rgb(252, 153, 153);
+}
+
+footer > p > a:hover {
+   color: red;
+   
+
+}
+
+footer > p {
+   font-size:1.1em ;
+}
