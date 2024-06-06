@@ -185,7 +185,7 @@ aside {
     main > article > aside > ul {
                     columns: 2;
                     list-style-position: inside;
-                    list-style-type: square;
+                    list-style-type:  "✒ \00A0";
                     margin: 15px auto 15px auto ;
 
     }
