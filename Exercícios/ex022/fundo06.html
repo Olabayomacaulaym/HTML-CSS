@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Possicionalmento vertical das caixas </title>
+
+    <style>
+        *{
+                margin: 0px ;
+                padding: 0px ;
+        }
+            #flutua {
+                        position: relative;
+                        height:  100vh ;
+                        background: #cac6c6 url(imagens/fundo_ex.png) no-repeat fixed ;
+                        background-size: 100% 100% ;
+            }
+
+            main > article  {
+                    position: absolute ;
+                background-color: whitesmoke ;
+                        height: 200px ;
+                        width: 260px ;
+
+                        top: 20% ;
+                        left: 20% ;
+
+                        transform: translate( -50%, -50%);
+                        
+            }
+
+            main > aside {
+                position: absolute ;
+                background-color: whitesmoke ;
+                        height: 200px ;
+                        width: 260px ;
+                        border-radius: 9px ;
+                        top: 40% ;
+                        left: 40% ;
+
+                        transform: translate( -50%, -50%);
+                                   
+            }
+
+            main > header {
+                position: absolute ;
+                background-color: whitesmoke ;
+                        height: 200px ;
+                        width: 260px ;
+                        border-radius: 9px ;
+                        top: 64% ;
+                        left: 62% ;
+
+                        transform: translate( -50%, -50%);
+                                   
+            }
+
+
+    </style>
+</head>
+<body>
+    
+    <main id="flutua">
+        <article >
+
+        </article>
+
+        <aside>
+
+        </aside>
+
+        <header>
+
+        </header>
+    </main>
+</body>
+</html>

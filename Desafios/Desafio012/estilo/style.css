@@ -1,0 +1,99 @@
+* {
+        margin: 0px ;
+        padding: 0px ;
+}
+
+    html , body {
+                    min-height:  100vh ;
+                    background-color: rgb(104, 103, 103) ;
+    }
+    header {
+                background-color: black ;
+                color: white ;
+                text-align: center ;
+                padding: 7vh 0px 7vh 0px ;
+                    
+
+    }
+
+    header > h1 {
+                        font-size:  2.6em ;
+                        font-variant: small-caps ;
+    }
+
+   header > p {
+                margin-top : 7px ; 
+   }
+    header > p > a {
+                        text-decoration: none;
+                        color :white ; 
+                        font-weight: bolder ;
+                    
+
+    }
+
+    header > p > a:hover {
+                        text-decoration: underline rgb(255, 208, 106) 2.5px ;
+    }
+
+    /* Aqui começa os estilos para estilizar a parte do conteúdo site passo  a passo */ 
+
+    .normal {
+                background-color: white ;
+                padding: 10vh 0vh 10vh 2vh;
+                
+    }
+
+
+    /* estilo para estilizar as sections que terá a imgem do fundo */ 
+
+    .imagem {
+                background-color: rgba(11, 90, 235, 0.822) ;
+                padding: 10vh 0vh 10vh 2vh ; 
+                box-shadow: inset 10px 30px  30px  rgba(0, 0, 0, 0.199);
+                background-image: url('imagens/wallpaper002.jpg');
+                
+
+    }
+
+    /* Aqui começa os estilos que estão dentro dos parágrafos que estão dentro das sections semânticas */ 
+
+    .normal > p  {
+                        padding: 10px 0px 10px 20px ; 
+                        line-height: 2.2em ;
+                        background-color: white ;
+                        width: 350px ;
+                        color: black ;
+        }
+
+    .imagem > p {
+                        padding: 10px 0px 10px 20px ; 
+                        line-height: 2.2em ;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        width: 350px ;
+                        color: white ;
+}
+
+
+
+/* Aqui começa os estilos para rodapé do site */ 
+
+   footer {
+                        background-color: black;
+                        color:white ; 
+                        padding:  3vh ;
+                        text-align: center ;
+
+
+   }
+
+   footer >  p > a {
+                        text-decoration: none;
+                        color: white ;
+                        font-weight: bolder ;
+   }
+
+   footer > p > a:hover {
+                        
+                        text-decoration:  underline beige 3px ;
+   }
