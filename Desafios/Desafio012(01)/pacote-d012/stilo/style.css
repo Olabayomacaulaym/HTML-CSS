@@ -63,12 +63,14 @@ header > p > a:hover {
 
     .normal > p {
                     background-color: rgb(255, 255, 255);
-                    width: 400px  ;
+                   display: inline-block;
                     line-height: 2.3em ;
-                    padding-left: 10px ;
+                    padding: 1em 1.1em 2em 1em ; 
                     font-family: var(--segundo);
                     font-size: 2em ;
-    }
+                    margin-right: 1.1em ;
+                  
+                }
 
     /* Os etilos que são aplicadas as section com class declarada como imagem */ 
 
@@ -81,11 +83,12 @@ header > p > a:hover {
 
                 line-height: 2em ;
                 background-color: rgba(0, 0, 0, 0.349) ;
-                width: 400px ;
-                padding-left: 10px ;
+                display: inline-block;
+                padding: 1em 1em 2em 1em ;
                 color: white ;
                 font-family: var(--segundo);
                 font-size: 2em ;
+                margin-right: 1.1em ;
     }
 
 
