@@ -26,13 +26,13 @@ header  > h1 {
               color: white ; 
               font-variant: small-caps;
               font-size: 4em ;
-              margin-top: 6vh ;
+              padding-top : 6vh ;
               font-family: var(--primeira);
 }
 
 header > p {
              
-            margin-bottom: 9vh ;
+            padding-bottom : 9vh ;
             font-size: 1.2em ;
             color: white ;
             font-family: var(--terceiro);
@@ -63,11 +63,11 @@ header > p > a:hover {
 
     .normal > p {
                     background-color: rgb(255, 255, 255);
-                    width: 360px ;
+                    width: 400px  ;
                     line-height: 2.3em ;
                     padding-left: 10px ;
                     font-family: var(--segundo);
-                    font-size: 2em;
+                    font-size: 2em ;
     }
 
     /* Os etilos que são aplicadas as section com class declarada como imagem */ 
@@ -81,11 +81,11 @@ header > p > a:hover {
 
                 line-height: 2em ;
                 background-color: rgba(0, 0, 0, 0.349) ;
-                width: 360px ;
+                width: 400px ;
                 padding-left: 10px ;
                 color: white ;
                 font-family: var(--segundo);
-                font-size: 2em;
+                font-size: 2em ;
     }
 
 
