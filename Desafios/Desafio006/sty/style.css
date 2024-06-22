@@ -1,0 +1,24 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+    body,html {
+    
+            min-height: 100vh ;
+
+        }
+
+        /* Aqui começa os estilos que fazem parte de fundo do site astronauata */
+    body{
+
+            background: gray url(../Imagens/espaco.jpg) center center no-repeat fixed ;
+            background-size: cover;
+            
+    }
+
+    /* O estilo que sobrepõe a página do site astronauta */
+
+    img{
+            margin: 0px auto ;
+    }
