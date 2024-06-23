@@ -5,7 +5,7 @@
 
     body,html {
     
-            min-height: 100vh ;
+            min-height: 100vh;
 
         }
 
@@ -14,11 +14,15 @@
 
             background: gray url(../Imagens/espaco.jpg) center center no-repeat fixed ;
             background-size: cover;
+            position: relative;
             
     }
 
     /* O estilo que sobrepõe a página do site astronauta */
 
     img{
-            margin: 0px auto ;
+          display: block  ;
+          position: absolute;
+          
+          transform: translate(50vh,50vh);
     }
