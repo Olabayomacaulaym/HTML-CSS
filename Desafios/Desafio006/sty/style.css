@@ -22,7 +22,8 @@
 
     img{
           display: block  ;
-          position: absolute;
-          
-          transform: translate(50vh,50vh);
+          margin: 0px auto ; 
+          width: 45vw;
+          filter: drop-shadow(4px 4px 30px rgb(108, 108, 250) );
+
     }

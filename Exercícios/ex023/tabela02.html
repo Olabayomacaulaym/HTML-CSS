@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As Tabelas Grandes </title>
+</head>
+
+    <style>
+
+        body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgb(255, 237, 215) ;
+        }
+
+            table {
+                    width: 50vw ;
+                    margin: 0px auto;
+            }
+
+            td.nu {
+                    
+                    text-align: right ;
+            }
+        table ,th, td {
+                        border: 1.5px solid black ;
+                        border-collapse: collapse ;
+                        padding: 12px ;
+                      
+        }   
+
+        th {
+                background-color: rgba(189, 183, 107, 0.767);
+        }     
+
+        tfoot {
+                background-color:darkkhaki ; 
+        }
+    </style>
+<body>
+    <h1>
+        Criando uma <q> tabela Grande </q> de exemplo 
+    </h1>
+
+    <table>
+<!-- Aqui começa o cabeçalho da tabela -->
+       <thead>
+        
+                <tr>
+                    <th>
+                        Estado
+                    </th>
+                    <th>
+                        População 
+                    </th>
+                </tr>
+
+       </thead>
+
+<!-- Aqui começa o corpo da tebela-->
+       
+       <tbody>
+        <tr>
+            <td>
+                São-Paulo
+            </td>
+            <td class="nu">
+                45.915.643
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Mínas Gerais 
+            </td>
+            <td class="nu">
+                29.560. 791
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Rio de Janeiro 
+            </td>
+            <td class="nu">
+                17.264.545
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Bahia
+            </td>
+            <td class="nu">
+                14.873.064
+            </td>
+        </tr>
+
+        <tr>
+            <td >
+                Paraná 
+            </td>
+            <td class="nu">
+                11.433.957
+            </td>
+        </tr>
+
+        <tr>
+            <td >
+               Rio Grande do Sul 
+            </td>
+            <td class="nu">
+                11.377.209
+            </td>
+        </tr>
+
+        <tr>
+            <td >
+                Pernambuco
+            </td>
+            <td class="nu">
+                9.557.071
+            </td>
+        </tr>
+
+        <tr>
+            <td >
+                Ceará 
+            </td>
+            <td class="nu">
+                9.132.078
+            </td>
+        </tr>
+       </tbody>
+
+       <!-- Aqui começa o rodapé da tabela -->
+
+       <tfoot>
+        <tr>
+            <td>
+                População Total 
+            </td>
+            <td class="nu">
+                136.942.499
+            </td>
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>
