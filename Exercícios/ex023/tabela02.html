@@ -22,8 +22,15 @@
             table {
                     width: 70vw ;
                     margin: 0px auto;
+                    position: relative; /* para fixar o cabeçalho no topo da página */
             }
 
+            /* Essa declaração serve para colar o cabeça da tabela no top da tabela */
+            table > thead > tr > th {
+                    position: sticky ;
+                    top: 0px ;
+                    background-color: rgb(189, 183, 107);
+            }
             td.nu {
                     
                     text-align: right ;
@@ -36,7 +43,7 @@
         }   
 
         th {
-                background-color: rgba(189, 183, 107, 0.767);
+                background-color: rgb(189, 183, 107);
         }     
 
         tfoot {
@@ -222,5 +229,6 @@
         </tr>
        </tfoot>
     </table>
+
 </body>
 </html>
