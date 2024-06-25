@@ -15,8 +15,9 @@ body {
 
 header {
 
-        background-color: rgb(170, 253, 87);
-        height: 70vh;
+        background: rgb(170, 253, 87) url( ../Imagem/africa_giraffe_safari_national_park_wilderness_wild_animal-1374332.jpg) no-repeat fixed ;
+        background-size: 100% 100% ;
+        height: 90vh;
         padding: 0px 0px 0px 30px ;
         position: relative ;
 }
@@ -58,6 +59,10 @@ div {
         position: absolute ;
         top: 17vh ; 
         padding: 50px ;  
+        background-color: rgba(0, 0, 0, 0.295) ; 
+        color: white  ;
+        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.726) ;
+        border-radius: 1.8px ;
 }
 
 div > h1 {
@@ -65,7 +70,8 @@ div > h1 {
         font-size: 6vw ;
         font-weight: border ;
         font-variant: small-caps ;
-        padding: 10px 5px 15px 5px ; 
+        padding: 10px 5px 15px 5px ;
+       
 }
 
 div > p {
