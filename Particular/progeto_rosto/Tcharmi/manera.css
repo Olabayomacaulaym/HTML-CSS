@@ -1,0 +1,75 @@
+* {
+
+    margin: 0px ;
+    padding: 0px ;
+
+}
+
+body {
+
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        min-height: 100% ;
+}
+
+/* Os estilos para os conteúdos que fazer parte do cabeçalho do site chamada header */
+
+header {
+
+        background-color: rgb(170, 253, 87);
+        height: 100vh;
+        padding: 0px 0px 0px 30px ;
+        position: relative ;
+}
+
+ nav {
+            
+        padding: 22px ;
+        text-align: right ;
+        font-weight: bold ;
+        background-color: rgb(3, 71, 3) ;
+}
+
+nav > a {
+
+        text-decoration: none ;
+        color: white ;
+        margin: 0px 35px 0px 5px ;
+        font-size: 1.2em  ;
+}
+
+nav > a:hover {
+
+        background-color: greenyellow ;
+        padding: 5px ;
+        color: rgba(0, 0, 0, 0.904);
+        border-radius: 3px ;
+        text-decoration: underline;
+        transition: 0.7s;
+}
+
+nav > a:visited {
+
+        color: gray ;
+}
+
+div {
+    
+        display: inline-block ;
+        position: absolute ;
+        top: 26vh ; 
+        padding: 50px ;  
+}
+
+div > h1 {
+
+        font-size: 6vw ;
+        font-weight: border ;
+        font-variant: small-caps ;
+        padding: 10px 5px 15px 5px ; 
+}
+
+div > p {
+
+        text-align: center;
+        font-size: 2vw ;
+}
