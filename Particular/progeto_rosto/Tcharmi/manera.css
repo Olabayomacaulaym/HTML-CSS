@@ -27,7 +27,7 @@ header {
         padding: 22px ;
         text-align: right ;
         font-weight: bold ;
-        background-color: rgb(3, 71, 3) ;
+        background-color: rgb(255, 214, 81) ;
 }
 
 nav > a {
@@ -59,9 +59,9 @@ div {
         position: absolute ;
         top: 17vh ; 
         padding: 50px ;  
-        background-color: rgba(0, 0, 0, 0.295) ; 
+        background-color: rgba(0, 0, 0, 0.219) ; 
         color: white  ;
-        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.726) ;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.726) ;
         border-radius: 1.8px ;
 }
 
