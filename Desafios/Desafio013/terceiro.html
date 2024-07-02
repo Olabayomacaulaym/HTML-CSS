@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mesclagem de tabela parte3 </title>
+
+    <style>
+
+        body {
+
+                font-family: 'Courier New', Courier, monospace ;
+
+        }
+
+        caption  {
+
+                font-weight:  bold ;
+                text-align: center ;
+                font-size: 1.4em ;
+                margin-bottom: 5px ;
+
+        }
+
+        table {
+
+                width: 40vw ;
+                border-collapse: collapse ;
+
+        }
+
+        td,th {
+
+                padding: 15px ;
+                border: 1px solid navy ;
+                text-align: center ;
+                
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>
+        
+        Terceiro desafio de tabela mesclado 
+
+    </h1>
+
+    
+    <table>
+        <caption> Livros Favoritos </caption>
+        <thead>
+
+            <tr>
+                <th> 
+                    Grupo
+                </th>
+                <th>
+                    Nomes
+                </th>
+                <th colspan="3">
+                    Livros 
+                </th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <!-- Aqui começa o grupo dos homens -->
+
+           <tr >
+            <th rowspan="3">
+                Homens
+            </th>
+
+            <td>Calonge</td>
+            <td>Atos</td>
+            <td>1Timótio</td>
+            <td>Mateus</td>
+
+           </tr>
+           
+           <tr>
+
+            <td>Munis</td>
+            <td>Lucas</td>
+            <td>1Coríntios</td>
+            <td>Apocalipce</td>
+
+           </tr>
+
+           <tr>
+
+            <td>Agusto</td>
+            <td>Marcus</td>
+            <td>Lucas</td>
+            <td>Colossensses</td>
+
+           </tr>
+
+           <!-- Aqui começa o grupo das mulheres -->
+
+           <tr>
+
+            <th rowspan="3">
+                Mulheres 
+            </th>
+
+            <td>Ana</td>
+            <td>1Samuel</td>
+            <td> João </td>
+            <td>Isaías </td>
+
+           </tr>
+
+           <tr>
+
+            <td>Julmira</td>
+            <td>2Coríntios</td>
+            <td>Galatas</td>
+            <td>Filemom</td>
+           
+        </tr>
+
+        <tr>
+
+            <td>Ortência</td>
+            <td>Hebreus</td>
+            <td>Efésios</td>
+            <td>Tito</td>
+
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

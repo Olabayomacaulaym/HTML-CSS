@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desafio 014 </title>
+
+    <style>
+
+        body {
+
+                font-family: cursive,sans-serif ;
+        }
+
+        table {
+
+                text-align: center ;
+                border-collapse: collapse ;
+                width: 550px ;
+        }
+
+        table > thead > tr  > th {
+
+                color: white ; 
+                background-color: rgb(73, 72, 72);
+        }
+
+        .cinza{
+
+            color: white ; 
+            background-color: rgb(73, 72, 72); 
+            text-align: left ;
+        }
+        td,th {
+
+                border: 1px solid black ;
+                padding: 12px ;
+        }
+
+        .me {
+
+                color: white;
+                background-color: rgb(73, 72, 72); ;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+
+        <!-- Por aqui ínicia o cabeçalho da tabela -->
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    Área
+                </th>
+                <th rowspan="2">
+                    Diciplinas
+                </th>
+                <th colspan="2">
+                    Notas
+                </th>
+                <th rowspan="2">
+                    Média
+                </th>
+            </tr>
+            
+            <tr>
+
+                <th>
+                    Nota 1
+                </th>
+                <th>
+                    Nota 2 
+                </th>
+            </tr>
+        </thead>
+
+        <!-- Aqui termina o cabeçalho da tabela -->
+
+        <tbody>
+
+            <tr>
+                <th rowspan="4">
+                    Exatas
+                </th>
+
+                <td>
+                    Matimática 
+                </td>
+                <td>
+                    13
+                </td>
+                <td>
+                    15
+                </td>
+                <td>
+                    14
+                </td>
+            </tr>
+<!-- Aqui está o fim da primeira linha no corpo da tabela -->
+
+<!-- Aqui está o início da segunda linha da tabela -->
+
+            <tr>
+                <td>Física</td>
+                <td>15.5</td>
+                <td>17.7</td>
+                <td>16.6</td>
+            </tr>
+<!-- Aqui termina a segunda linha no corpo da tabela -->
+
+<!-- Aqui inícia a terceira linha no corpo da tabela -->
+
+            <tr>
+                <td>Química</td>
+                <td>15</td>
+                <td>15</td>
+                <td>15</td>
+            </tr>
+<!-- Aqui termina a terceira linha no corpo  da tabela -->
+
+<!-- Aqui inícia a quarta linha no corpo da tabela -->
+ 
+            <tr>
+                <td>Biologia</td>
+                <td>18</td>
+                <td>20</td>
+                <td>19</td>
+            </tr>
+<!-- Aqui termina a quarta linha no corpo da tabela -->
+
+<!-- Aqui inícia a quinta linha no corpo da tabela que tem o th -->
+
+            <tr>
+                <th class="cinza" colspan="4">
+                    Média De Exatas 
+                </th>
+                <td class="me">
+                    16 
+                </td>
+            </tr>
+
+<!-- Fim da quinta linha dentro do corpo da tabela --> 
+
+<!-- Início da sexta linha no corpo da tabela --> 
+
+            <tr>
+                <th rowspan="2">
+                    Humanas
+                </th>
+                <td>História</td>
+                <td>12</td>
+                <td>14</td>
+                <td>13</td>
+            </tr>
+
+<!-- Fim da sexta linha no corpo da tabela --> 
+
+<!-- Início da setima linha no corpo da tabela --> 
+
+            <tr>
+                <td>Geografia</td>
+                <td>20</td>
+                <td>16</td>
+                <td>18</td>
+            </tr>
+
+<!-- Aqui termina a sétima linha no corpo da tabela --> 
+
+<!-- Início da ulitima linha da tabela --> 
+
+            <tr>
+                <th class="cinza" colspan="4">
+                    Média De Humanas
+                </th>
+                <td class="me">
+                    15.5
+                </td>
+            </tr>
+    </tbody>
+
+    </table>
+</body>
+</html>
