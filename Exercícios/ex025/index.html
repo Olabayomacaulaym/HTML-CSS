@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceito do formulário</title>
+</head>
+<body>
+    
+    <h1> 
+        Este foi o meu primeiro formulário 
+    </h1>
+
+    <form  autocomplete="off" action="bornal.php">
+
+            <p><label for="pap">Nome :</label> <input type="text" name="Nome" id="pap"></p>
+            <!-- O label não aceito os indentificadores do parâmetro 'name' apenas aceito os de 'id' como se pode ver no exemplo do objeto de entrada de cima para os 'id' e o de baixo o que não funciona para a 'name'-->
+            <p> <label for="Bairro">Bairro: </label> <input type="text" name="Bairro" id="pop"></p>
+            <p> <input type="submit" value="Mandar para mim"></p>
+    </form>
+</body>
+</html>
