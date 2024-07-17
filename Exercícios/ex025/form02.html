@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="dados.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="fa"> Nome|</label>
+            <input type="text" id="fa"  required maxlength="10"  minlength="6"  size="15" placeholder=" Digite o seu nome "  autocomplete="username">
+        </p>
+
+        <p>
+            <label for="ena"> Email </label>
+            <input type="text" id="ena" size="20" placeholder="Munistavarez@gmail.com" required autocomplete="email">
+        </p>
+        <p>
+
+            <label for="da"> Senha| </label>
+            <input type="password" name="dea" id="da" autocomplete="current-password" required maxlength="25" minlength="7" size="25" placeholder=" Digite uma senha forte">
+        </p>
+        <p>
+
+            <input type="submit" value="Valida">
+        </p>
+        <p>
+            <input type="reset" value="Restaura">
+        </p>
+    </form>
+</body>
+</html>
