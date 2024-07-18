@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário controles adicionais </title>
+</head>
+<body>
+    
+    <form action="dados.py" method="get" autocomplete="on"> 
+
+        <p>
+            <label for="das"> Nome | </label> 
+            <input type="text" name="da" id="das" autocomplete="name" placeholder=" Nome completo " maxlength="15" size="25" required>
+        </p>
+
+        <p>
+            <label for="dis">Data | </label>
+            <input type="month" name="dis" id="dis" required >
+        </p>
+
+        <p>
+            <label for="asd"> Média | </label>
+            <input type="number" name="asd" id="asd" value="1" required max="20" min="12" >
+
+        </p>
+
+        <p>
+            <label for="isd"> Textos ou números</label>
+            <input type="text" name="isd" id="isd" required maxlength="10" minlength="5" >
+        </p>
+
+        <p>
+            <label for="fada"> Hora </label>
+            <input type="time" name="fada" id="fada" required >
+        </p>
+
+        <p>
+            <label for="cod"> Senha </label>
+            <input type="password" name="cod" id="cod" required size="20" placeholder="Digite uma senha muito forte" maxlength="25" minlength="7" autocomplete="new-password">
+        </p>
+        <p>
+            <input type="submit" value=" Enviar " >
+        </p>
+    </form>
+</body>
+</html>
