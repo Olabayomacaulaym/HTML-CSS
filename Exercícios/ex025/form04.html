@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mais controle para formulário</title>
+</head>
+<body>
+    
+    <h1>
+        Controle para telefone e para E-mail | 
+    </h1>
+
+    <form action="dados.py" method="get" autocomplete="on"> 
+
+        <fieldset>
+            <legend> Abó e kin contano dé </legend>
+            <p>
+                <label for="we"> Telefone | </label>
+                <input type="tel" name="we" id="we" required placeholder="+245-96-581-93-48" autocomplete="tel" pattern="*\d{2}-\{4}$">
+            </p>
+            <p>
+                <label for="le"> E-mail | </label>
+                <input type="email" name="lei" id="le" placeholder="Bruno@gmail.com" autocomplete="email" required  >
+            </p>
+            <p>
+                <input type="submit" value="Enviar"> <input type="reset" value="Apagar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

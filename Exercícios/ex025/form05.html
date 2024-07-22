@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-box e Radio </title>
+</head>
+<body>
+    
+    <h1>
+        Input do tipo <q>check-box</q> e   <q> Radio</q>
+    </h1>
+
+        <form action="dados.py" method="get">
+            <fieldset>
+    
+                <legend> Que Bairro Você é ? </legend>
+
+                <label for="td">Masculino</label>
+                <input type="radio" name="tar" id="td" required>
+
+                <label for="teq"> Feminino</label>
+                <input type="radio" name="tar" id="teq" required >
+               
+            </fieldset>
+<br><br><br>
+            <fieldset style="border-radius: 4px;">
+
+                <legend>   Qual é o seu cor favorito ? </legend>
+                <label for="TT"> Azul</label>
+                <input type="checkbox" name="au" id="TT"    requered  checked> <br>
+
+                <label for="uu">Verde</label>
+                <input type="checkbox" name="ee" id="uu"    requered > <br>
+
+                <label for="ss">Vermelho</label>
+                <input type="checkbox" name="aa" id="ss"    requered > <br>
+
+                <label for="dd"> Branca</label>
+                <input type="checkbox" name="cc" id="dd"    requered > <br>
+
+                <label for="qq"> Preta</label>
+                <input type="checkbox" name="hh" id="qq"    requered >
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+            </p>
+
+        </form>
+
+</body>
+</html>
