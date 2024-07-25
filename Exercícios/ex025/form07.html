@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selected , textarea , datalist </title>
+</head>
+<body>
+    <h1>
+        Selected , textarea , datalist 
+    </h1>
+
+    <form action="dados.py" method="post">
+
+        <select name="dar" id="pa">
+
+            <optgroup label="As regiões Norte">
+                <option value="Regiões">
+                    SAB('Setor Autónumo de Bissau')
+                </option>
+                <option value="ha"> Biombo</option>
+                <option value="pe"> Oio</option>
+                <option value="ilh">Ilhas de Bijagos</option>
+             </optgroup>
+
+                <optgroup label="As regiões sul">
+                    
+                        <option value="te">Tombali</option>
+                        <option value="sw">Cacheu</option>
+                        <option value="va">Quinara</option>
+                        <option value="he">Bafata</option>
+                </optgroup>
+
+      
+        </select>
+
+        <p>
+            <label for="fara"> Qual é a sua profissão : </label>
+            <input type="text" list="gar" id="fara" placeholder="Qualquer que seja">
+            <datalist id="gar"> 
+                <option>Professor</option>
+                <option>Agricultor</option>
+                <option>Padeiro</option>
+            </datalist>
+        </p>
+
+        <p>
+
+            <textarea name="dai" id="bas" rows="20" cols="50" placeholder="Digite aqui o que desejar "></textarea>
+        </p>
+        <br><input type="submit" value="enviar"> <input type="reset" value="Apagar">
+    </form>
+ 
+</body>
+</html>
