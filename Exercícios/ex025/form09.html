@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando output no input range </title>
+</head>
+<body>
+    <h1>
+        Usando output no input range
+    </h1>
+
+    <form action="dados.py" method="post">
+
+            <p>
+                <input type="range" name="de" id="bar" min="5" max="50" oninput="nar.innerHTML = Number(bar.value)">
+                <output id="nar">5</output>
+            </p>
+        <p>
+            <input type="submit" value="Enviar">
+             <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autput na prática </title>
+</head>
+<body>
+    <h1> Utilizando a tag autput na prática ! </h1>
+
+    <form action="dados.py" method="post">
+
+            
+        <p> 
+            <label for="itar"> Digite ou escolha qualquer número |</label>
+            <input type="number" name="tar" id="itar" required oninput="igama.innerHTML = Number(itar.value) + Number(idar.value)"></p>
+        <p>
+            
+            <label for="idar"> Digite ou escolha qualquer número |</label>
+            <input type="number" name="dar" id="idar" required required oninput="igama.innerHTML = Number(itar.value) + Number(idar.value)"></p>
+
+
+                <p>
+                    <label for="igama"> Resultado da soma |</label>
+                    <output id="igama">
+                        0
+                    </output>
+                </p>
+        <p>
+            <input type="submit" value="Enviar">
+             <input type="reset" value="Apagar">
+        </p>
+    </form>
+
+</body>
+</html>
