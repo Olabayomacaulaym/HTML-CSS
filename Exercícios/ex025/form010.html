@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando idade de uma pessoa</title>
+</head>
+<body>
+    
+    <h1>
+        Calculando idade de uma pessoa
+    </h1>
+
+    <form action="dados.py" method="post">
+
+        <p>
+                <label for="bar"> Qual é sua  data de naciemeto ? |</label>
+            <input type="number" name="var" id="bar" riquired min="1965" placeholder=" ano 2000" oninput="CalcIdade()">
+        </p>
+        
+            <p>
+                <label for="barra"> A sua idade atual é | </label>
+                <output id="barra"></output>
+            </p>
+        <p>
+            <input type="submit" value="Enviar">
+             <input type="reset" value="Apagar">
+        </p>
+    </form>
+
+    <script>
+        function CalcIdade(){
+                let atual = new Date().getFullYear()
+                barra.innerHTML = Number(atual) - Number(bar.value) + ' anos'
+        }
+    </script>
+</body>
+</html>
