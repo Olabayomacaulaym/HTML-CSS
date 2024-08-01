@@ -1,0 +1,57 @@
+*{
+    margin: 0px ; 
+    padding: 0px ; 
+}
+/* Estes são os estilos para versões da tela */ 
+
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+
+        background-color: darkolivegreen ;
+}
+
+header > h1 {
+
+        text-align:center ; 
+        padding: 10px ;
+        
+}
+
+header > p {
+
+    text-align: right ;
+    padding:15px ; 
+
+}
+
+header > nav > a {
+    display: inline-block;
+    text-decoration: none ;
+    color: white ;
+    padding: 10px ;
+    
+}
+
+main {
+        background-color: burlywood;
+        padding: 20px ;
+        display: block ;
+        max-width: 850px ;
+        min-width: 300px ;
+        margin:0px auto ;
+        height: 100vh; 
+}
+
+main > article > h3,h2 {
+
+        padding:15px ; 
+        margin: 10px 0px 5px 0xp ;
+}
+
+main > article > p {
+
+        line-height: 1.5em ;
+        text-indent: 2em ;
+}

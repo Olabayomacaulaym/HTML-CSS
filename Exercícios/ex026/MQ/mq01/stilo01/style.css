@@ -1,0 +1,25 @@
+*{
+    margin:0px ; 
+    padding:0px ; 
+}
+
+/* As estlizações que vão ser aplicadas na versão impressa do site */ 
+body {
+        font-family: 'Times New Roman', Times, serif ;
+        
+}
+
+header{
+        background-color: rgb(252, 252, 123) ;
+}
+
+header > h1 {
+
+        text-align: center ;
+        margin:10px 0px 10px 0px ; 
+}
+
+header > nav {
+        display: none ;
+}
+
