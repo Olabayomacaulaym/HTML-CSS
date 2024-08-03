@@ -1,0 +1,19 @@
+*{
+    margin:0px ; 
+    padding:0px ; 
+}
+
+html, body {
+
+        height: 100vh ;
+        width:100vw ; 
+        background-color: #233eff ;
+        background-size: contain ;
+        background-repeat: no-repeat;
+}
+
+h1 {
+        padding: 15px ;
+        text-shadow: 1px 2px 4px rgb(2, 53, 2) ;
+        text-align: center ;
+}
