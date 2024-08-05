@@ -1,0 +1,50 @@
+/*para outras medias*/ 
+@media  screen and (min-width:768px) and (max-width:922px) {
+    #phone{ display: none ;}
+    #tablet { display:block ;}
+    #print { display: none ;}
+    #pc { display:none ;}
+    #tv { display: none ; }
+    body{
+            background: black url('../Imagens/back-tablet.jpg') no-repeat ;
+            background-size: cover ;
+    }   
+}
+
+@media screen and (min-width:922px) and (max-width:1200px) {
+
+    #phone{ display: none ;}
+    #tablet { display:none ;}
+    #print { display: none ;}
+    #pc { display:block ;}
+    #tv { display: none ; }
+
+    body{
+            background: black url('../Imagens/back-pc.jpg') no-repeat;
+            background-size: cover ;
+            background-position: center center ;
+    }
+}
+
+@media screen and ( min-width:1200px) and (max-width:2000px) {
+
+    #phone{ display: none ;}
+    #tablet { display:none ;}
+    #print { display: none ;}
+    #pc { display:none ;}
+    #tv { display: block; }
+    
+        body {
+                background: black url('../Imagens/back-tv.jpg') no-repeat ;
+                background-size: cover ;
+        }
+}
+
+@media print {
+
+        main::after{
+
+                content: 'Este site foi desenvolvido pelo desenvolvedor Guineensse , através do site do curso em videos' ;
+                text-decoration: underline ;
+        }
+}
