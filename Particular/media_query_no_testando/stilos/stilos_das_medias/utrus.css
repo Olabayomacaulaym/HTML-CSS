@@ -1,0 +1,28 @@
+@media screen and ( min-width:600px) and (max-width:950px) {
+
+        body{
+                background: darkgray url('../imagens/sonhos02.jpg') no-repeat ;
+                background-size: cover ;
+                background-position: bottom center ;
+        }
+}
+
+@media screen and (min-width:950px) and (max-width:1228px) {
+
+        body{
+                background: darkgray url('../imagens/sonhos03.jpg') no-repeat ; 
+                background-size: cover ;
+                background-position: center  ;
+        }
+}
+
+@media screen and (min-width:1228px) and (max-width:3000px) {
+
+        body{
+                background: darkgray url('../imagens/sonhos04.jpg') no-repeat ;
+                background-size: cover ;
+                background-position: center;
+                
+
+        }
+}
