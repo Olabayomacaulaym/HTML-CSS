@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texte De Menu Responsivo </title>
+    <link rel="stylesheet" href="stilo/sha.css">
+    <link rel="stylesheet" href="stilo/medias.css">
+</head>
+<body onresize="telaPar">
+     
+        <header>
+            <h1>
+                Texte De Menu Responsivo Na Prática | 
+            </h1>
+
+            <i id="dan" onclick="clickMenu()"> <img src="./stilo/imagens/menu1.png" alt="menu"></i>
+            <menu id="itens" >
+                
+                <ul>
+                    <li> <a href="#">Parte 01</a></li>
+                    <li> <a href="#">Parte 02</a></li>
+                    <li> <a href="#">Parte 03</a></li>
+                    <li> <a href="#">Parte 04</a></li>
+                    <li> <a href="#">Parte 05</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        <main>
+            <article>
+                <h2> As medias Quiries na prática </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tempore ipsa facere obcaecati sit qui eos excepturi magni impedit repellat quidem alias exercitationem corporis rerum, voluptas beatae, quae laborum quo!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi minus explicabo qui quidem saepe quas molestias corrupti possimus architecto ab expedita ipsam ipsum, odio recusandae in doloribus harum. Veniam, libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam totam laboriosam accusamus voluptas minima libero quas excepturi obcaecati. Eaque, recusandae corporis? Qui incidunt corrupti ducimus? Autem porro libero magni!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur, earum, illo nam a minima fuga ad et pariatur nostrum atque alias tempore sunt iste. Cum fuga placeat non facere?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, harum. Provident quae doloribus fugit quod. Voluptas distinctio minima non modi sequi nam, perspiciatis sint asperiores inventore, nisi optio laboriosam tempora.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum est, nisi assumenda nesciunt et tenetur commodi itaque placeat ducimus eaque harum! Sit consequatur iure laudantium mollitia cupiditate laboriosam magnam! Officiis.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum accusamus eos autem velit iusto odit voluptatibus sed nesciunt, repellendus accusantium enim quasi libero totam minima eius repellat vero a. Dicta?
+                </p>
+            </article>
+        </main>
+
+        <script>
+
+                function telaPar() {
+
+                        if( window.innerWidth >= 768) {
+                                itens.style.display = 'block'
+                        } else {
+                                itens.style.display = 'none'
+                        }
+                }
+
+            function clickMenu() {
+                    if(itens.style.display == 'block') {
+                            itens.style.display= 'none' 
+                    } else {
+                            itens.style.display = 'block'
+                    }
+            }
+        </script>
+</body>
+</html>

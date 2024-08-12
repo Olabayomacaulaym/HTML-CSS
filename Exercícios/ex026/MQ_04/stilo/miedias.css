@@ -9,6 +9,8 @@
             background: black url('../Imagens/back-tablet.jpg') no-repeat ;
             background-size: cover ;
     }   
+
+    
 }
 
 @media screen and (min-width:922px) and (max-width:1200px) {
@@ -24,6 +26,7 @@
             background-size: cover ;
             background-position: center center ;
     }
+
 }
 
 @media screen and ( min-width:1200px) and (max-width:2000px) {
@@ -38,6 +41,7 @@
                 background: black url('../Imagens/back-tv.jpg') no-repeat ;
                 background-size: cover ;
         }
+
 }
 
 @media print {
