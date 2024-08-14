@@ -9,14 +9,58 @@
 </head>
 <body>
     <main>
-    
-        <nav class="barra">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Hire-me</a>
-        </nav>
-</main>
+        
+        <section id="base">
+            
+            <div id="log">
+                <h1> Login </h1>
+            </div>
+
+            <div id="formu">
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div id="text">
+                        <h2>
+                            Bem-vindo
+                        </h2>
+                        <p>
+                            Faça login com a sua conta, para que possas ter acesso ao seu painel . 
+                        </p>
+                    </div>
+                    <div class="inputs" id="ema">
+
+                        <input type="email" name="dema" id="idema" required maxlength="30" minlength="7" autocomplete="email" placeholder="Seu email porfavor ?">
+                        <label for="emas">Login</label>
+
+                    </div>
+
+                    <div class="inputs" id="pass">
+
+                        <input type="password" name="woe" id="iwoe" required maxlength="30" minlength="7" autocomplete="current-password" placeholder="Sua senha porfavor ?">
+                        <label for="wor"> Senha </label>
+
+                    </div>
+
+                    <div id="dois">
+                        
+                      
+
+                            <input type="submit" value=" Enviar">
+
+                      
+
+                            <input type="reset" value="Apagar">
+
+                        
+                    </div>
+
+                    <div id="enco">
+
+                        <a href="#"> Esqueceu a senha ?</a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>

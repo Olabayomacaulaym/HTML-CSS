@@ -5,6 +5,42 @@
                 background-size: cover ;
                 background-position: bottom center ;
         }
+
+       section#base {
+
+                width: 75vw ;
+                height: 350px; 
+               
+       }
+
+       section#base {
+
+                padding: 7px 7px ; 
+       }
+
+      div#log  {
+                position: relative ; 
+                float: left;
+                height: 100% ;
+                width : 35% ;  
+
+      }
+      div#log > h1 {
+                position: absolute ; 
+                top: 50% ; 
+                left : 50% ; 
+                transform:  translate(-50%,-50%);
+                padding: 0px  ; 
+                font-size: 3.4em ; 
+      }
+
+      div#formu {
+
+                float: right ; 
+                height: 100% ; 
+                width : 65% ; 
+                background-color: rgba(158, 158, 158, 0.575); 
+      }
 }
 
 @media screen and (min-width:950px) and (max-width:1228px) {
@@ -14,6 +50,42 @@
                 background-size: cover ;
                 background-position: center  ;
         }
+
+        section#base {
+
+                width: 65vw ;
+                height: 370px; 
+               
+       }
+
+       section#base {
+
+                padding: 7px 7px ; 
+       }
+
+      div#log  {
+                position: relative ; 
+                float: left ;
+                height: 100% ;
+                width : 40% ;  
+
+      }
+      div#log > h1 {
+                position: absolute ; 
+                top: 50% ; 
+                left : 50% ; 
+                transform:  translate(-50%,-50%);
+                padding: 0px  ; 
+                font-size: 4em ; 
+      }
+
+      div#formu {
+
+                float: right ; 
+                height: 100% ; 
+                width : 60% ; 
+                background-color: rgba(158, 158, 158, 0.658);   background-color: rgba(158, 158, 158, 0.575); 
+      }
 }
 
 @media screen and (min-width:1228px) and (max-width:3000px) {
@@ -25,4 +97,36 @@
                 
 
         }
+
+        section#base {
+
+                width: 65vw ;
+                height: 390px; 
+                padding: 7px 7px ; 
+               
+       }
+
+      div#log  {
+                position: relative ; 
+                float: left;
+                height: 100% ;
+                width : 30% ;  
+
+      }
+      div#log > h1 {
+                position: absolute ; 
+                top: 50% ; 
+                left : 50% ; 
+                transform:  translate(-50%,-50%);
+                padding: 0px  ; 
+                font-size: 3.4em ; 
+      }
+
+      div#formu {
+
+                float: right ; 
+                height: 100% ; 
+                width : 60% ;
+                background-color: rgba(158, 158, 158, 0.575); 
+      }
 }
